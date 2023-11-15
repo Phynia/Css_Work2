@@ -1,0 +1,54 @@
+p{
+    margin: 2px;
+}   /* Burada kutular arası boşluk olması için margin kullanıyoruz */
+
+/* Google görselinin ortalanması için  */
+.go{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Search ün arka plan rengi için olan kısım */
+.bg_gray { 
+    background-color:#EEEEEE;
+} 
+
+/* Search kısmının ortalanması ve marginin ne kadar kısmı kaplayacağı bölüm kodları */
+.padd  {
+            margin: auto;
+            text-align: center;
+            width: 90%;
+    }
+
+/* Special Searh yükseklik ve genişlik ayarlama kısmı */
+    .tone{
+        height: 78px;
+        width: 37%;
+        background-color: #7EE5DA;
+        float: left;  /* float sayesinde yazılarımızı aynı blokda  */
+    }
+
+    .ttwo{
+        height: 78px;
+        width: 19.3%;
+        margin-right: 2px;
+        margin-left: 2px;
+        float: left;
+        font-size: small;
+        background-color:#70CCC2;
+    }
+
+    .ttri{
+        height: 78px;
+        width: 37.3%;
+        float: left;
+        font-size: small;
+        background-color: #62B3AA;
+     }
+    
+
+
+
+
+
